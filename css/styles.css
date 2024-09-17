@@ -1,0 +1,149 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+:root {
+    --primary-color: #2E2F42;
+    --secondary-color: #434455;
+    --light-color: #F4F4FD;
+    --second-logo-color: #4D5AE5;
+    --accent-color: #404BBF;
+    --primary-font: "Roboto", sans-serif;
+}
+/* ========== GENERAL ========== */
+body {
+    font-family: var(--primary-font);
+}
+/* ========== /GENERAL ========== */
+
+/* ========== COMPONENTS ========== */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.logo-accent {
+    color: var(--second-logo-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+/* ========== /COMPONENTS ========== */
+
+/* ========== HEADER ========== */
+.menu {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-link {
+    color: inherit;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-list {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-list-link {
+    color: inherit;
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+    color: var(--accent-color);
+}
+/* ========== /HEADER ========== */
+
+/* ========== HERO ========== */
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.modal-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* ========== /HERO ========== */
+/* ========== OUR PRINCIPLES ========== */
+.description-company-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+.description-company-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+/* ========== /OUR PRINCIPLES ========== */
+
+/* ========== OUR TEAM ========== */
+.team-list-fullname {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+.team-list-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+/* ========== /OUR TEAM ========== */
+
+/* ========== FOOTER ========== */
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-color);
+}
+/* ========== /FOOTER ========== */
