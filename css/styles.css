@@ -138,6 +138,42 @@ body {
 }
 /* ========== /OUR TEAM ========== */
 
+/* ========== HERO PORTFOLIO ========== */
+.filter-services-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--second-logo-color);
+    background-color: var(--light-color);
+    cursor: pointer;
+    font-family: var(--primary-font);
+}
+
+.filter-services-btn:hover,
+.filter-services-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.name-services {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+.type-services {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+/* ========== /HERO PORTFOLIO ========== */
+
 /* ========== FOOTER ========== */
 .footer-text {
     font-weight: 400;
